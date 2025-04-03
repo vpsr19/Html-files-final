@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1a1a1a, #333);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #f4b400;
+}
+
+/* Events Section */
+.events-section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 50px auto;
+    background: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Event Category */
+.event-category {
+    margin-bottom: 40px;
+}
+
+.event-category h2 {
+    background: #0073e6;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 22px;
+}
+
+/* Individual Event Card */
+.event {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.event:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1a1a1a;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
+
