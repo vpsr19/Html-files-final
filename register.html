@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM📑</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+    <h1>EVENT REGISTRATION FORM</h1>
+    <form action="#" method="POST" onsubmit="alert('Successfully registered!'); return false;">
+        <div class="form-group">
+            <label for="name">NAME:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="rollno">ROLL NO:</label>
+            <input type="number" id="rollno" name="rollno" placeholder="Enter your roll number" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        </div>
+
+        <div class="form-group">
+            <label for="event">EVENT SELECTION:</label>
+            <select id="event" name="event" required>
+                <option value="technical">TECHNICAL</option>
+                <option value="cultural">CULTURAL</option>
+                <option value="sports">SPORTS</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
